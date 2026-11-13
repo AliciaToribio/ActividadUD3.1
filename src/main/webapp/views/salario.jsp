@@ -28,7 +28,7 @@
         <td><c:out value="${sueldo}"/></td>
        </tr>
  </table>
- <p><a href="empresa?opcion=salario">Buscar otro</a></p>
- <p><a href="index.jsp">Volver al inicio</a></p>
+ <p><a href="${pageContext.request.contextPath}/salario">Buscar otro</a></p>
+ <p><a href="${pageContext.request.contextPath}/index.jsp">Volver al inicio</a></p>
 </body>
 </html>

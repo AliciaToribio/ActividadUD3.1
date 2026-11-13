@@ -10,7 +10,7 @@
 </head>
 <body>
  <h1>Editar Empleado</h1>
- <form action="empresa" method="post">
+ <form action="${pageContext.request.contextPath}/editar" method="post">
  <input type="hidden" name="opcion" value="editar">
   <table border="1">
    <tr>
@@ -37,7 +37,7 @@
    </br>
   <input type="submit" value="Guardar">
  </form>
- <p><a href="empresa?opcion=editar">Editar otro</a></p>
-  <p><a href="index.jsp">Volver al inicio</a></p>
+ <p><a href="${pageContext.request.contextPath}/editar">Editar otro</a></p>
+  <p><a href="${pageContext.request.contextPath}/index.jsp">Volver al inicio</a></p>
 </body>
 </html>

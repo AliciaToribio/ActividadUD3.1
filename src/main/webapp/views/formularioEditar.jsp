@@ -9,8 +9,7 @@
 </head>
 <body>
  <h1>Empleado a editar</h1>
- <form action="empresa" method="get">
-  <input type="hidden" name="opcion" value="buscarEditar">
+ <form action="${pageContext.request.contextPath}/editar" method="get">
   <table border="1">
    <tr>
     <td>DNI:</td>
@@ -20,6 +19,6 @@
   </br>
   <input type="submit" value="Buscar">
  </form>
- <p><a href="index.jsp">Volver</a></p>
+ <p><a href="${pageContext.request.contextPath}/index.jsp">Volver</a></p>
 </body>
 </html>

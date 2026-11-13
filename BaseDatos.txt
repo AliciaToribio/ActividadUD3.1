@@ -18,7 +18,7 @@ VALUES
 ('32000032G', 'James Cosling', 'M', 4, 7),
 ('32000031R', 'Ada Lovelace', 'F', 1, 0);
 
-INSERT INTO nominas (sueldo, empleado)
+INSERT INTO nominas (sueldo, dni)
 VALUES
 (145000.00, '32000032G'),
 (50000.00, '32000031R');

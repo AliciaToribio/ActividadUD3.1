@@ -11,13 +11,13 @@
   <h1>Menu de Opciones</h1>
   <table border="1">
   <tr>
-    <td><a href="empresa?opcion=listar"> Listar Empleados</a></td>
+    <td><a href="${pageContext.request.contextPath}/listar"> Listar Empleados</a></td>
   </tr>
   <tr>
-    <td><a href="empresa?opcion=salario"> Mostrar Salario Empleado</a></td>
+    <td><a href="${pageContext.request.contextPath}/salario"> Mostrar Salario Empleado</a></td>
   </tr>
   <tr>
-      <td><a href="empresa?opcion=editar"> Editar Empleado</a></td>
+      <td><a href="${pageContext.request.contextPath}/editar"> Editar Empleado</a></td>
     </tr>
 </table>
 </body>

@@ -58,7 +58,7 @@ public class EmpleadoDAO {
      */
     public boolean editar(Empleado e) throws SQLException {
         String sqlEmpleado = "UPDATE empleados SET nombre=?, sexo=?, categoria=?, anyos=? WHERE dni=?";
-        String sqlNominaUpdate = "UPDATE nominas SET sueldo=? WHERE empleado=?";
+        String sqlNominaUpdate = "UPDATE nominas SET sueldo=? WHERE dni=?";
 
         double sueldo = Nomina.sueldo(e);
 

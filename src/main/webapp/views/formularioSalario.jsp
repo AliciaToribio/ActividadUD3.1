@@ -9,7 +9,7 @@
 </head>
 <body>
  <h1>Empleado a mostrar salario</h1>
- <form action="empresa" method="get">
+ <form action="${pageContext.request.contextPath}/salario" method="get">
   <input type="hidden" name="opcion" value="buscarSalario">
   <table border="1">
    <tr>
@@ -20,6 +20,6 @@
   </br>
   <input type="submit" value="Buscar">
  </form>
- <p><a href="index.jsp">Volver</a></p>
+ <p><a href="${pageContext.request.contextPath}/index.jsp">Volver</a></p>
 </body>
 </html>
